@@ -1,0 +1,34 @@
+section{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 100px 0;
+    background: url("../img/andre-benz-5LBU8AVVtHk-unsplash.jpg");
+    background-size: cover;
+
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+p{
+    color: #a53434;
+    font-size: 20px;
+}
+button{
+    padding: 12px 40px;
+    background: #1e9fc3;
+    color: #171616;
+    margin: 20px;
+    border: 2px solid #eec7c7;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    background: blue;
+    color: #fff;
+    border-radius: 0;
+}
